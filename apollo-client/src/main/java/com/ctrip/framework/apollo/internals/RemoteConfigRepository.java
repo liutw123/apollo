@@ -201,7 +201,8 @@ public class RemoteConfigRepository extends AbstractConfigRepository {
             //ignore
           }
         }
-
+        // configurl mapping
+        configService.setHomepageUrl(m_configUtil.getMetaServerDomainName());
         url = assembleQueryConfigUrl(configService.getHomepageUrl(), appId, cluster, m_namespace,
                 dataCenter, m_remoteMessages.get(), m_configCache.get());
 
