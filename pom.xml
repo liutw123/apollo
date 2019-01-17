@@ -981,12 +981,12 @@
 	-->
 	<distributionManagement>
 		<repository>
-			<id>releases</id>
-			<url>https://repo.rdc.aliyun.com/repository/49653-snapshot-tCk847/</url>
+			<id>rdc-releases</id>
+			<url>https://repo.rdc.aliyun.com/repository/42855-release-NxRnWI/</url>
 		</repository>
 		<snapshotRepository>
-			<id>snapshots</id>
-			<url>https://repo.rdc.aliyun.com/repository/49653-snapshot-tCk847/</url>
+			<id>rdc-snapshots</id>
+			<url>https://repo.rdc.aliyun.com/repository/42855-snapshot-6FChPS/</url>
 		</snapshotRepository>
 	</distributionManagement>
 </project>
